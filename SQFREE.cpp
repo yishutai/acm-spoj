@@ -26,6 +26,8 @@ const int MOD = 1e9+7;
 const int maxn = 11111111;
 const int INF = 1<<30;
 int mu[maxn];
+
+// Build Mobius function
 void pre() {
 	fill(mu,mu+10000001,1);
 	int ub = sqrt(maxn+0.5);
