@@ -58,7 +58,7 @@ bool ok(LL m, LL b, int l2, int l3) {
 }
 
 void ins(LL m, LL b) {
-    while(M.size() >= 3 && ok(m, b, M.size()-1, M.size()-2)) {
+    while(M.size() >= 2 && ok(m, b, M.size()-1, M.size()-2)) {
         M.pop_back();
         B.pop_back();
     }
